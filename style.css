@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div{
+    height: 300px;
+    border: 1px solid black;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tank {
+    width: 60px;
+    height: 298px;
+    border: 2px solid black;
+    background: white;
+    position: relative;
+    display: inline-block;
+}
+
+.bar{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#water {
+    background: blue;
+}
+
+#wall {
+    background: yellow;
+}
+
+#output_text {
+    font-size: 30px;
+    font-weight: 700;
+}
